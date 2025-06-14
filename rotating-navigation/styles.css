@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: brown;
+}
+
+.container {
+  background-color: bisque;
+  transform-origin: top left;
+  transition: transform 0.5s linear;
+}
+
+.container.show-nav {
+  transform: rotate(-20deg);
+}
+
+nav {
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  margin: 30px;
+}
